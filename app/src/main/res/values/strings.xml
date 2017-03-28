@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">List view and FloatingActionButton</string>
+
+    <string name="title">This is my APPS</string>
+
+    <string name="sutitle">This is Education Apps</string>
+
+
+    <string name="item1">Windos</string>
+
+    <string name="item2">Samsung</string>
+
+    <string name="item3">Sony</string>
+
+    <string name="item4">Walton</string>
+    <string name="searchable">Search Here</string>
+
+
+
+
+    <string-array name="countries">
+        <item>America</item>
+        <item>Australia</item>
+        <item>Africa</item>
+        <item>Afganistan</item>
+        <item>Arabamirat</item>
+        <item>Abudhabi</item>
+        <item>Bangladesh</item>
+        <item>Barmuda</item>
+        <item>Barbados</item>
+        <item>Bakinghum</item>
+        <item>Bulgaria</item>
+        <item>Belgium</item>
+        <item>Brasels</item>
+        <item>Canada</item>
+        <item>Colombia</item>
+        <item>Combodia</item>
+        <item>Conggo</item>
+        <item>Sydni</item>
+        <item>Tokyo</item>
+        <item>Beiging</item>
+        <item>Sanghi</item>
+        <item>Tione</item>
+        <item>Toronto</item>
+        <item>NewYork</item>
+        <item>London</item>
+        <item>California</item>
+        <item>India</item>
+        <item>Barma</item>
+        <item>Cenni</item>
+        <item>Kolkata</item>
+        <item>Pangab</item>
+    </string-array>
+
+
+
+</resources>

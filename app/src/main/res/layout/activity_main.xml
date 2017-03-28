@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="swe.sofolab.listviewandfloatingactionbutton.MainActivity">
+
+    <include
+
+        layout="@layout/toolbar"
+        android:id="@+id/my_toolbar"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewmain"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp"
+            android:id="@+id/fab_like_xml"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="196dp"
+            android:layout_marginRight="10dp"
+            app:backgroundTint="#f00c50"
+            android:elevation="20dp"
+            android:src="@drawable/ic_action_like"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_man_xml"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="166dp"
+            android:layout_marginRight="80dp"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp"
+            app:backgroundTint="#8810f2"
+            android:elevation="20dp"
+            android:src="@drawable/ic_action_man"
+            />
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_search_xml"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="106dp"
+            android:layout_marginRight="130dp"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp"
+            app:backgroundTint="#02bbb2"
+            android:elevation="20dp"
+            android:src="@drawable/ic_action_search"
+            />
+
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_share_xml"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="36dp"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp"
+            android:layout_marginRight="160dp"
+            app:backgroundTint="#3e2102"
+            android:elevation="20dp"
+            android:src="@drawable/ic_action_share"
+            />
+
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_plus_xml"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="26dp"
+            android:layout_marginRight="30dp"
+            app:backgroundTint="#e58219"
+            android:elevation="20dp"
+            android:src="@drawable/ic_action_plus"
+            />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+
+</RelativeLayout>
